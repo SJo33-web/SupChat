@@ -1,0 +1,31 @@
+.chats{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-radius:  1px solid #f6f6f6;
+}
+
+.chats:hover{
+    background-color: #ebebeb;
+
+}
+
+.chats-info >h2 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 8px;
+}
+.chat-info{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.avat{
+    margin-right: 10px;
+}
+.sidebar_link{
+    text-decoration: none;
+    color: black;
+}
+.badge{
+    margin: 10px !important;
+}
