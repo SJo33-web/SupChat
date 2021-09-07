@@ -8,6 +8,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SidebarChats from './SidebarChats';
 import db from "./firebase"
+import firebase from 'firebase'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useStateValue } from "./StateProvider"
@@ -41,6 +42,7 @@ export default function Sidebar({ id }) {
         }
 
     }, [id])
+
 
     // method to filter message channels
     const filterChannels = (e) => {
@@ -92,7 +94,7 @@ export default function Sidebar({ id }) {
             <div onClick={createNewChat} className="chat-head">
                 <h2>New Chat</h2>
             </div>
-            {/* create a div here and give it a class name of sidebar-chats */}
+            /* create a div here and give it a class name of sidebar-chats */
             <div className="sidebar-chats">
                 {
                     rooms.map(room => (

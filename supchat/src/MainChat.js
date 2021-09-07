@@ -19,7 +19,7 @@ import InputEmoji from "react-input-emoji";
 
 
 
-// these utilitiees from materila ui dialogue
+// these utilities from materila ui dialogue
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -93,7 +93,7 @@ export default function MainChat() {
             timestamp: firebase.firestore.FieldValue.serverTimestamp()
 
         }).catch((e) => toast.error(e.message))
-        toast.success('Sent')
+        toast.success('message sent successfully')
         setMessage('')
     }
 
@@ -143,7 +143,7 @@ export default function MainChat() {
                     {messages.length > 0 ? (
                         <p>{new Date(messages[messages.length - 1]?.timestamp?.toDate()).toLocaleString()}</p>
                     ) : (
-                        <p>No messages in this channel</p>
+                        <p>No messages yet</p>
                     )
 
                     }

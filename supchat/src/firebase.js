@@ -2,7 +2,7 @@
 
 import firebase from "firebase"
 
-//these are the conguration keys for my application
+//these are the conguration keys for our application
 
 const firebaseConfig = {
     apiKey: "AIzaSyCj3B9txhhX4vDFjfpajKohE7Qb0iCY4Zc",

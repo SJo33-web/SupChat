@@ -2284,9 +2284,9 @@
   integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
 
 "@types/node@>=12.12.47", "@types/node@>=13.7.0":
-  version "16.7.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.10.tgz#7aa732cc47341c12a16b7d562f519c2383b6d4fc"
-  integrity sha512-S63Dlv4zIPb8x6MMTgDq5WWRJQe56iBEY0O3SOFA9JrRienkOVDXSXBjjJw6HTNQYSE2JI6GMCR6LVbIMHJVvA==
+  version "16.7.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.13.tgz#86fae356b03b5a12f2506c6cf6cd9287b205973f"
+  integrity sha512-pLUPDn+YG3FYEt/pHI74HmnJOWzeR+tOIQzUx93pi9M7D8OE7PSLr97HboXwk5F+JS+TLtWuzCOW97AHjmOXXA==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -6840,6 +6840,13 @@ istanbul-reports@^3.0.2:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
+javascript-time-ago@^2.3.8:
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/javascript-time-ago/-/javascript-time-ago-2.3.8.tgz#7e1cd94a770987cc00db82e60e655d3efdd25629"
+  integrity sha512-ahVSuInQC6iJtwy/XsburOc6JMsI0OI/84b3nAhtMlDhCm9g4Py+zuiPASnt02B4GkaURqWtiyw98ce0ICAZYQ==
+  dependencies:
+    relative-time-format "^1.0.5"
+
 jest-changed-files@^26.6.2:
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-26.6.2.tgz#f6198479e1cc66f22f9ae1e22acaa0b429c042d0"
@@ -9951,6 +9958,14 @@ react-scripts@4.0.3:
   optionalDependencies:
     fsevents "^2.1.3"
 
+react-time-ago@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/react-time-ago/-/react-time-ago-7.1.1.tgz#7915bad99a6e4de6d7dd07389de2d7e77cb3fd65"
+  integrity sha512-TRKYV21bUwQxLrvOi/gSHZ3g68/gHM0XZ79SIBq+WnMPk6cDS6fEGCu9aEpFKudjPMQpW2vDMBkZkCSzGSxN/Q==
+  dependencies:
+    prop-types "^15.7.2"
+    raf "^3.4.1"
+
 react-timeago@^6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/react-timeago/-/react-timeago-6.2.1.tgz#f19716811156617ceb9c9f9a44315d85197c7fba"
@@ -10153,6 +10168,11 @@ relateurl@^0.2.7:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
+
+relative-time-format@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/relative-time-format/-/relative-time-format-1.0.5.tgz#3fb7c76ae39156afe0a3a7ff0cb7bf30aa0f0fb6"
+  integrity sha512-MAgx/YKcUQYJpIaWcfetPstElnWf26JxVis4PirdwVrrymFdbxyCSm6yENpfB1YuwFbtHSHksN3aBajVNxk10Q==
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
@@ -11383,6 +11403,11 @@ thunky@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
   integrity sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA==
+
+timeago.js@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/timeago.js/-/timeago.js-4.0.2.tgz#724e8c8833e3490676c7bb0a75f5daf20e558028"
+  integrity sha512-a7wPxPdVlQL7lqvitHGGRsofhdwtkoSXPGATFuSOA2i1ZNQEPLrGnj68vOp2sOJTCFAQVXPeNMX/GctBaO9L2w==
 
 timers-browserify@^2.0.4:
   version "2.0.12"
